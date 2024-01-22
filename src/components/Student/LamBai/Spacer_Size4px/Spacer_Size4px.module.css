@@ -1,0 +1,8 @@
+.root {
+  width: min-content;
+  height: min-content;
+}
+.spacer {
+  width: 4px;
+  height: 4px;
+}

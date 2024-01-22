@@ -1,0 +1,87 @@
+._VideoProgress._VideoProgress {
+  left: 12px;
+  right: 20px;
+  bottom: 12px;
+  top: initial;
+  width: initial;
+}
+.badge.badge {
+  background-color: #ffffff4d;
+}
+.text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._PlayButton._PlayButton {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.root {
+  position: absolute;
+  left: 1463px;
+  top: 16px;
+  width: 768px;
+  height: 432px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-image:/* webpackIgnore: true */ url('/assets/playingFalseSizeXl.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.shadowOverlayPlayer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 116px;
+  background-image: linear-gradient(180deg, #0000 0%, #0003 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0000001a;
+}
+.textAndBadge {
+  position: absolute;
+  left: 32px;
+  top: calc(50% - 8px);
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  transform: translateY(-50%);
+}
+.text2 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

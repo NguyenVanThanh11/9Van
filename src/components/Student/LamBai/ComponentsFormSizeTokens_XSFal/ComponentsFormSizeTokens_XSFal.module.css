@@ -1,0 +1,11 @@
+.adjuster.adjuster {
+  align-self: flex-start;
+  gap: 416px;
+}
+.root {
+  width: min-content;
+  max-width: 100%;
+  height: min-content;
+  max-height: 100%;
+  flex-direction: column;
+}

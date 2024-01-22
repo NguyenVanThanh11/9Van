@@ -1,0 +1,60 @@
+.root {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 528px;
+  height: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+.background {
+  opacity: 0.3;
+  position: absolute;
+  left: 28px;
+  right: 0;
+  top: 4px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.buffering {
+  position: absolute;
+  left: 28px;
+  right: -32px;
+  top: 4px;
+  height: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bufferingProgress {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 84.9624%;
+  top: 0;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.progressLine {
+  position: absolute;
+  left: 28px;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.play {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
