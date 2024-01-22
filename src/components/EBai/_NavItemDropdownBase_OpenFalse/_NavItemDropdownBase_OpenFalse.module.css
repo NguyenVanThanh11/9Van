@@ -1,0 +1,12 @@
+._NavItemBase._NavItemBase {
+  width: initial;
+  flex: 1;
+  height: initial;
+}
+.root {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 272px;
+  height: min-content;
+}

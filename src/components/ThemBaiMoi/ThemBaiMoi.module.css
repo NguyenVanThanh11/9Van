@@ -1,0 +1,1085 @@
+.searchLg.searchLg {
+  width: 20px;
+  height: 20px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+._NavItemButton._NavItemButton {
+  align-self: initial;
+  background-color: #d0d5dd;
+}
+.settings1.settings1 {
+  width: 20px;
+  height: 20px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+._NavItemButton2._NavItemButton2 {
+  align-self: initial;
+  background-color: #d0d5dd;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.avatar.avatar.avatar {
+  background-image:/* webpackIgnore: true */ url('/assets/avatar2.jpeg');
+}
+._NavItemBase._NavItemBase {
+  height: initial;
+  flex: 1;
+  background-color: #eaecf5;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.text {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._NavItemBase2._NavItemBase2 {
+  height: initial;
+  flex: 1;
+  background-color: #b3b8db;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.text2 {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._NavItemBase3._NavItemBase3 {
+  height: initial;
+  flex: 1;
+  background-color: #eaecf5;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.text3 {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._NavItemBase4._NavItemBase4 {
+  height: initial;
+  flex: 1;
+  background-color: #eaecf5;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+}
+.text4 {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._NavItemBase5._NavItemBase5 {
+  height: initial;
+  flex: 1;
+  background-color: #eaecf5;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+}
+.text5 {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._TabButtonBase._TabButtonBase {
+  left: 10px;
+  top: 38px;
+}
+.text6 {
+  color: #667085;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._TabButtonBase2._TabButtonBase2 {
+  left: 250px;
+  top: 38px;
+}
+.text7 {
+  color: #6941c6;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableHeaderCell.tableHeaderCell {
+  width: initial;
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text8 {
+  color: #475467;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell.tableCell {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text9 {
+  color: #101828;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.supportingText {
+  color: #475467;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell2.tableCell2 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell3.tableCell3 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell4.tableCell4 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell5.tableCell5 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell6.tableCell6 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableHeaderCell2.tableHeaderCell2 {
+  width: initial;
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text10 {
+  color: #475467;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell7.tableCell7 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text11 {
+  color: #475467;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell8.tableCell8 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell9.tableCell9 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell10.tableCell10 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell11.tableCell11 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell12.tableCell12 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableHeaderCell3.tableHeaderCell3 {
+  width: initial;
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text12 {
+  color: #475467;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell13.tableCell13 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text13 {
+  color: #475467;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell14.tableCell14 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell15.tableCell15 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell16.tableCell16 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell17.tableCell17 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell18.tableCell18 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableHeaderCell4.tableHeaderCell4 {
+  width: initial;
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text14 {
+  color: #475467;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell19.tableCell19 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text15 {
+  color: #475467;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell20.tableCell20 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell21.tableCell21 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell22.tableCell22 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell23.tableCell23 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell24.tableCell24 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableHeaderCell5.tableHeaderCell5 {
+  width: initial;
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text16 {
+  color: #475467;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell25.tableCell25 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.text17 {
+  color: #475467;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.tableCell26.tableCell26 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell27.tableCell27 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell28.tableCell28 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell29.tableCell29 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableCell30.tableCell30 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: inset 0px -1px 0px #fcfcfd;
+}
+.tableHeaderCell6.tableHeaderCell6 {
+  width: initial;
+  align-self: stretch;
+  box-shadow: initial;
+}
+.tableCell31.tableCell31 {
+  width: initial;
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: initial;
+}
+.text18 {
+  color: #475467;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text19 {
+  color: #6941c6;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text20 {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text21 {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.inputField.inputField {
+  width: 700px;
+  align-items: flex-start;
+}
+.label {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.text22 {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.chevronDown.chevronDown {
+  width: 20px;
+  height: 20px;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+}
+.textareaInputField.textareaInputField {
+  width: 700px;
+  align-items: flex-start;
+}
+.label2 {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.buttonCloseX.buttonCloseX {
+  right: 27px;
+  left: initial;
+  top: 11.5px;
+}
+.featuredIcon.featuredIcon {
+  position: initial;
+  outline: initial;
+  outline-offset: initial;
+  background-color: initial;
+}
+.checkCircle.checkCircle {
+  z-index: 0;
+  position: initial;
+}
+.icon10.icon10 {
+  position: initial;
+  top: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+.icon10 {
+  position: initial;
+  top: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+}
+._ModalActions._ModalActions {
+  width: 352px;
+  align-self: initial;
+  flex-direction: column;
+  gap: initial;
+}
+.button.button.button {
+  flex-direction: column;
+  gap: initial;
+  padding: initial;
+  outline: initial;
+  outline-offset: initial;
+  background-color: initial;
+  box-shadow: initial;
+}
+.iconVariant3.iconVariant3.iconVariant3.iconVariant3 {
+  z-index: 0;
+  position: initial;
+}
+.icon12.icon12.icon12.icon12 {
+  position: initial;
+  top: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+.button2.button2.button2 {
+  flex-direction: column;
+  gap: initial;
+  padding: initial;
+  outline: initial;
+  outline-offset: initial;
+  background-color: initial;
+  box-shadow: initial;
+}
+.buttonCloseX2.buttonCloseX2 {
+  left: initial;
+  top: 16px;
+  flex-direction: column;
+  padding: initial;
+}
+.xClose.xClose.xClose {
+  position: initial;
+}
+.icon13.icon13.icon13 {
+  position: initial;
+  top: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+.root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.headerNavigation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 82px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcfd;
+  overflow: hidden;
+  box-shadow: inset 0px -1px 0px #98a2b3;
+}
+.container {
+  width: 1366px;
+  height: 82px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 738px;
+  padding: 0 20px;
+}
+.content {
+  width: min-content;
+  height: min-content;
+}
+.logo {
+  width: 93px;
+  height: min-content;
+  align-self: flex-start;
+}
+._9VAN {
+  color: #3e4784;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 135px;
+  height: 29px;
+  flex-direction: column;
+}
+.content2 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 16px;
+}
+.actions {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 4px;
+}
+.search {
+  width: 528px;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 24px;
+}
+.inputDropdown {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.inputWithLabel {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.input {
+  height: min-content;
+  align-self: stretch;
+  padding: 10px 14px;
+  outline: solid 1px #fff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.content3 {
+  height: min-content;
+  flex: 1;
+  align-self: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.text23 {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.content4 {
+  position: absolute;
+  left: 2px;
+  top: 82px;
+  width: 245px;
+  height: 942px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #fcfcfd;
+  box-shadow: inset -1px 0px 0px #98a2b3;
+}
+.nav {
+  width: 245px;
+  height: 940px;
+  flex-direction: column;
+  padding: 32px 0 0;
+}
+.navigation {
+  height: 309px;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 16px;
+}
+.frame1116606394 {
+  position: absolute;
+  left: 247px;
+  top: 83px;
+  width: 1195px;
+  height: 76px;
+  flex-direction: column;
+  align-items: flex-start;
+  outline: solid 1px #a6a6a6;
+  background-color: #fff;
+  overflow: hidden;
+}
+.table {
+  position: absolute;
+  left: 257px;
+  top: 178px;
+  width: 1149px;
+  height: 830px;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.content5 {
+  height: 764px;
+  align-self: stretch;
+  align-items: flex-start;
+  background-color: #fff;
+}
+.column {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.column2 {
+  width: 176px;
+  height: min-content;
+  flex-direction: column;
+}
+.column3 {
+  width: 176px;
+  height: min-content;
+  flex-direction: column;
+}
+.column4 {
+  width: 176px;
+  height: min-content;
+  flex-direction: column;
+}
+.column5 {
+  width: 176px;
+  height: min-content;
+  flex-direction: column;
+}
+.column6 {
+  width: 115px;
+  height: min-content;
+  flex-direction: column;
+}
+.modal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 1024px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #344054b2;
+  backdrop-filter: blur(8px);
+}
+.form {
+  position: relative;
+  width: 774px;
+  height: 699px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.themBaiMoi {
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 18.5px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.form2 {
+  position: absolute;
+  left: 37px;
+  top: 69.5px;
+  width: 700px;
+  height: 576px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.inputWithLabel2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.label3 {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.input2 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  outline: solid 1px #d0d5dd;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.content6 {
+  height: min-content;
+  flex: 1;
+}
+.text24 {
+  color: #98a2b3;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.inputField2 {
+  width: 700px;
+  height: min-content;
+  flex-direction: column;
+  gap: 6px;
+}
+.inputWithLabel3 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.label4 {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.input3 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  outline: solid 1px #d0d5dd;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.content7 {
+  height: min-content;
+  flex: 1;
+}
+.text25 {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.input4 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  outline: solid 1px #d0d5dd;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.content8 {
+  height: min-content;
+  flex: 1;
+}
+.text26 {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.input5 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  outline: solid 1px #d0d5dd;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.content9 {
+  height: min-content;
+  flex: 1;
+}
+.text27 {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.button3 {
+  position: absolute;
+  left: 80.8786%;
+  right: 4.7804%;
+  top: 92.3462%;
+  bottom: 2.0744%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 5px;
+  background-color: #4e5ba6;
+  overflow: hidden;
+  box-shadow: 4px 8px 16px 0px #001b6f33;
+}
+.luu {
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

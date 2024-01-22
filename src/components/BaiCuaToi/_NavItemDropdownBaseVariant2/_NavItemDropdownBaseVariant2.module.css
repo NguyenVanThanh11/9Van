@@ -1,0 +1,11 @@
+._NavItemDropdownBase._NavItemDropdownBase {
+  align-items: flex-start;
+}
+.root {
+  position: absolute;
+  left: 1882px;
+  top: 741px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+}

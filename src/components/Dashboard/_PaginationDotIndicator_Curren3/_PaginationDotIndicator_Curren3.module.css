@@ -1,0 +1,13 @@
+.root {
+  position: absolute;
+  left: -196.5909%;
+  right: 285.2273%;
+  top: -4187.1805%;
+  bottom: 4187.1805%;
+  width: 10px;
+  height: 10px;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #fff;
+  overflow: hidden;
+}
