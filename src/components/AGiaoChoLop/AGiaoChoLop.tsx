@@ -174,7 +174,9 @@ export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text}>Trang chủ</div>,
+                text: <div  onClick={() => {
+                  navigate('/giao-vien');
+                }} className={classes.text}>Trang chủ</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -194,7 +196,9 @@ export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text2}>Lớp học</div>,
+                text: <div  onClick={() => {
+                  navigate('/lop-hoc');
+                }} className={classes.text2}>Lớp học</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -214,7 +218,9 @@ export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text3}>Bài tập</div>,
+                text: <div  onClick={() => {
+                  navigate('/bai-tap');
+                }} className={classes.text3}>Bài tập</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -234,7 +240,9 @@ export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text4}>Đề thi</div>,
+                text: <div  onClick={() => {
+                  navigate('/de-thi');
+                }} className={classes.text4}>Đề thi</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -254,7 +262,9 @@ export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text5}>Hồ sơ</div>,
+                text: <div  onClick={() => {
+                  navigate('/profile');
+                }} className={classes.text5}>Hồ sơ</div>,
               }}
             />
           </div>

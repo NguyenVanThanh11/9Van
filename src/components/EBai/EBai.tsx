@@ -118,7 +118,7 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
   
 const navigate = useNavigate();
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
+    <div className={`${resets.clapyResets} ${classes.root}`} style={{height: "1000px"}}>
       <div className={classes.baiTap}>
         <div className={classes.headerNavigation} style={{width: "100%"}}>
           <div className={classes.container}>
