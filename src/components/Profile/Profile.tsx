@@ -58,7 +58,7 @@ interface Props {
 export const Profile: FC<Props> = memo(function Profile(props = {}) {
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.headerNavigation}>
+      <div className={classes.headerNavigation} style={{width: "100%"}}>
         <div className={classes.container}>
           <div className={classes.content}>
             <div className={classes.logo}>
