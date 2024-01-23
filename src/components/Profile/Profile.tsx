@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import { _NavItemBase_CurrentFalseColor } from './_NavItemBase_CurrentFalseColor/_NavItemBase_CurrentFalseColor.js';
@@ -56,11 +57,14 @@ interface Props {
 }
 /* @figmaId 6223:24088 */
 export const Profile: FC<Props> = memo(function Profile(props = {}) {
+  const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.headerNavigation} style={{width: "100%"}}>
         <div className={classes.container}>
-          <div className={classes.content}>
+          <div className={classes.content}  onClick={() => {
+              navigate('/giao-vien');
+            }}>
             <div className={classes.logo}>
               <div className={classes._9VAN}>9VAN</div>
             </div>
@@ -78,7 +82,7 @@ export const Profile: FC<Props> = memo(function Profile(props = {}) {
                             icon: <SearchLgIcon className={classes.icon} />,
                           }}
                         />
-                        <div className={classes.text11}>Tìm kiếm</div>
+                        <input className={classes.text11} placeholder="Tìm kiếm"/>
                       </div>
                     </div>
                   </div>
@@ -128,7 +132,9 @@ export const Profile: FC<Props> = memo(function Profile(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text}>Trang chủ</div>,
+                text: <div  onClick={() => {
+                  navigate('/giao-vien');
+                }} className={classes.text}>Trang chủ</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -148,7 +154,9 @@ export const Profile: FC<Props> = memo(function Profile(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text2}>Lớp học</div>,
+                text: <div  onClick={() => {
+                  navigate('/lop-hoc');
+                }} className={classes.text2}>Lớp học</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -168,7 +176,9 @@ export const Profile: FC<Props> = memo(function Profile(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text3}>Bài tập</div>,
+                text: <div  onClick={() => {
+                  navigate('/bai-tap');
+                }} className={classes.text3}>Bài tập</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -188,7 +198,9 @@ export const Profile: FC<Props> = memo(function Profile(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text4}>Đề thi</div>,
+                text: <div  onClick={() => {
+                  navigate('/de-thi');
+                }} className={classes.text4}>Đề thi</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -208,7 +220,9 @@ export const Profile: FC<Props> = memo(function Profile(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text5}>Hồ sơ</div>,
+                text: <div  onClick={() => {
+                  navigate('/profile');
+                }} className={classes.text5}>Hồ sơ</div>,
               }}
             />
           </div>
