@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import { Button_SizeLgHierarchyPrimaryI } from './Button_SizeLgHierarchyPrimaryI/Button_SizeLgHierarchyPrimaryI.js';
@@ -40,6 +41,7 @@ interface Props {
 }
 /* @figmaId 6222:19576 */
 export const TaoLopMoi: FC<Props> = memo(function TaoLopMoi(props = {}) {
+  const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <DanhSachLop
@@ -117,7 +119,9 @@ export const TaoLopMoi: FC<Props> = memo(function TaoLopMoi(props = {}) {
                 iconVariant3: true,
               }}
               text={{
-                text: <div className={classes.text3}>Thoát</div>,
+                text: <div  onClick={() => {
+                  navigate('/lop-hoc');
+                }} className={classes.text3}>Thoát</div>,
               }}
             />
             <Button_SizeLgHierarchyPrimaryI
@@ -127,7 +131,9 @@ export const TaoLopMoi: FC<Props> = memo(function TaoLopMoi(props = {}) {
                 placeholder2: true,
               }}
               text={{
-                text: <div className={classes.text4}>Lưu</div>,
+                text: <div onClick={() => {
+                  navigate('/lop-hoc');
+                }} className={classes.text4}>Lưu</div>,
               }}
             />
           </div>

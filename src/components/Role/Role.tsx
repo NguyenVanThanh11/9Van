@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import classes from './Role.module.css';
@@ -9,6 +10,7 @@ interface Props {
 }
 /* @figmaId 6222:19543 */
 export const Role: FC<Props> = memo(function Role(props = {}) {
+  const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.frame1}>
@@ -27,7 +29,9 @@ export const Role: FC<Props> = memo(function Role(props = {}) {
         <div className={classes.button2}>
           <div className={classes.text3}>Giới thiệu</div>
         </div>
-        <div className={classes.roleColorChip}>
+        <div className={classes.roleColorChip} onClick={() => {
+              navigate('/giao-vien');
+            }}>
           <div className={classes.mainChip}>
             <div className={classes.topChip}>
               <div className={classes.dot}></div>
@@ -39,7 +43,9 @@ export const Role: FC<Props> = memo(function Role(props = {}) {
             </div>
           </div>
         </div>
-        <div className={classes.roleColorChip2}>
+        <div className={classes.roleColorChip2} onClick={() => {
+              navigate('/hoc-sinh');
+            }}>
           <div className={classes.mainChip2}>
             <div className={classes.topChip2}>
               <div className={classes.dot2}></div>

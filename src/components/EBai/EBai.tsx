@@ -1,5 +1,7 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 import resets from '../_resets.module.css';
 import { _NavItemBase_CurrentFalseColor } from './_NavItemBase_CurrentFalseColor/_NavItemBase_CurrentFalseColor.js';
@@ -113,12 +115,16 @@ interface Props {
 }
 /* @figmaId 6223:23330 */
 export const EBai: FC<Props> = memo(function EBai(props = {}) {
+  
+const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.baiTap}>
-        <div className={classes.headerNavigation}>
+        <div className={classes.headerNavigation} style={{width: "100%"}}>
           <div className={classes.container}>
-            <div className={classes.content}>
+            <div  onClick={() => {
+              navigate('/giao-vien');
+            }} className={classes.content}>
               <div className={classes.logo}>
                 <div className={classes._9VAN}>9VAN</div>
               </div>
@@ -136,7 +142,7 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
                               icon: <SearchLgIcon className={classes.icon} />,
                             }}
                           />
-                          <div className={classes.text45}>Tìm kiếm</div>
+                          <input style={{width: "100%", height: "100%", border: "none"}} className={classes.text45} placeholder="Tìm kiếm" />
                         </div>
                       </div>
                     </div>
@@ -186,7 +192,9 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
                   chevronDown: true,
                 }}
                 text={{
-                  text: <div className={classes.text}>Trang chủ</div>,
+                  text: <div  onClick={() => {
+                    navigate('/giao-vien');
+                  }} className={classes.text}>Trang chủ</div>,
                 }}
               />
               <_NavItemBase_CurrentFalseColor
@@ -206,7 +214,9 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
                   chevronDown: true,
                 }}
                 text={{
-                  text: <div className={classes.text2}>Lớp học</div>,
+                  text: <div  onClick={() => {
+                    navigate('/lop-hoc');
+                  }} className={classes.text2}>Lớp học</div>,
                 }}
               />
               <_NavItemBase_CurrentFalseColor
@@ -226,7 +236,9 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
                   chevronDown: true,
                 }}
                 text={{
-                  text: <div className={classes.text3}>Bài tập</div>,
+                  text: <div  onClick={() => {
+                    navigate('/bai-tap');
+                  }} className={classes.text3}>Bài tập</div>,
                 }}
               />
               <_NavItemBase_CurrentFalseColor
@@ -246,7 +258,9 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
                   chevronDown: true,
                 }}
                 text={{
-                  text: <div className={classes.text4}>Đề thi</div>,
+                  text: <div  onClick={() => {
+                    navigate('/de-thi');
+                  }} className={classes.text4}>Đề thi</div>,
                 }}
               />
               <_NavItemBase_CurrentFalseColor
@@ -266,7 +280,9 @@ export const EBai: FC<Props> = memo(function EBai(props = {}) {
                   chevronDown: true,
                 }}
                 text={{
-                  text: <div className={classes.text5}>Hồ sơ</div>,
+                  text: <div  onClick={() => {
+                    navigate('/profile');
+                  }} className={classes.text5}>Hồ sơ</div>,
                 }}
               />
             </div>

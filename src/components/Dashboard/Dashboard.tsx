@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import { _NavItemBase_CurrentFalseColor } from './_NavItemBase_CurrentFalseColor/_NavItemBase_CurrentFalseColor.js';
@@ -53,11 +54,14 @@ interface Props {
 }
 /* @figmaId 6222:19544 */
 export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
+  const navigate = useNavigate();
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.headerNavigation}>
+    <div className={`${resets.clapyResets} ${classes.root}`} style={{height: "1400px"}}>
+      <div className={classes.headerNavigation} style={{width: "100%"}}>
         <div className={classes.container}>
-          <div className={classes.content}>
+          <div className={classes.content}  onClick={() => {
+              navigate('/giao-vien');
+            }}>
             <div className={classes.logo}>
               <div className={classes._9VAN}>9VAN</div>
             </div>
@@ -68,14 +72,14 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
                 <div className={classes.inputDropdown}>
                   <div className={classes.inputWithLabel}>
                     <div className={classes.input}>
-                      <div className={classes.content3}>
+                      <div className={classes.content3} style={{width: "100%", height: "100%", border: "none"}}>
                         <SearchLg
                           className={classes.searchLg}
                           swap={{
                             icon: <SearchLgIcon className={classes.icon} />,
                           }}
                         />
-                        <div className={classes.text6}>Tìm kiếm</div>
+                        <input style={{width: "100%", height: "100%", border: "none"}} placeholder='Tìm kiếm' className={classes.text6}/>
                       </div>
                     </div>
                   </div>
@@ -145,7 +149,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text2}>Lớp học</div>,
+                text: <div className={classes.text2} onClick={() => {
+                  navigate('/lop-hoc');
+                }}>Lớp học</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -165,7 +171,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text3}>Bài tập</div>,
+                text: <div  onClick={() => {
+                  navigate('/bai-tap');
+                }} className={classes.text3}>Bài tập</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -185,7 +193,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text4}>Đề thi</div>,
+                text: <div  onClick={() => {
+                  navigate('/de-thi');
+                }} className={classes.text4}>Đề thi</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -205,7 +215,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text5}>Hồ sơ</div>,
+                text: <div className={classes.text5} onClick={() => {
+                  navigate('/profile');
+                }}>Hồ sơ</div>,
               }}
             />
           </div>
@@ -222,7 +234,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
           </div>
         </div>
         <div className={classes.frame1000001913}>
-          <div className={classes.frame1000001910}>
+          <div className={classes.frame1000001910} onClick={() => {
+              navigate('/lop-hoc');
+            }}>
             <div className={classes.frame1000001909}>
               <div className={classes.lopHoc}>Lớp học</div>
             </div>
@@ -242,7 +256,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
       <div className={classes.frame1000001920}>
         <div className={classes.lopHocAngHoatOng}>Lớp học đang hoạt động</div>
         <div className={classes.frame1000001919}>
-          <div className={classes.frame1000001881}>
+          <div className={classes.frame1000001881} onClick={() => {
+              navigate('/lop-hoc');
+            }}>
             <div className={classes.frame1000001878}>
               <div className={classes.frame1000001916}></div>
               <div className={classes.frame1000001918}>
@@ -262,7 +278,9 @@ export const Dashboard: FC<Props> = memo(function Dashboard(props = {}) {
               </div>
             </div>
           </div>
-          <div className={classes.frame10000019162}>
+          <div className={classes.frame10000019162} onClick={() => {
+              navigate('/lop-hoc');
+            }}>
             <div className={classes.frame10000018782}>
               <div className={classes.frame10000019163}></div>
               <div className={classes.frame10000019182}>

@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import classes from './Login.module.css';
@@ -11,6 +12,7 @@ interface Props {
 }
 /* @figmaId 6227:5516 */
 export const Login: FC<Props> = memo(function Login(props = {}) {
+  const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.frame1116606390}>
@@ -41,13 +43,20 @@ export const Login: FC<Props> = memo(function Login(props = {}) {
             socialButton2: classes.socialButton2,
             socialButton3: classes.socialButton3,
           }}
+          
           swap={{
             vector: <VectorIcon className={classes.icon} />,
           }}
           text={{
-            text: <div className={classes.text}>Đăng nhập với Google</div>,
-            text2: <div className={classes.text2}>Đăng nhập với Facebook</div>,
-            text3: <div className={classes.text3}>Đăng nhập với Apple </div>,
+            text: <div className={classes.text} onClick={() => {
+              navigate('/role');
+            }}>Đăng nhập với Google</div>,
+            text2: <div className={classes.text2} onClick={() => {
+              navigate('/role');
+            }}>Đăng nhập với Facebook</div>,
+            text3: <div className={classes.text3} onClick={() => {
+              navigate('/role');
+            }}>Đăng nhập với Apple </div>,
           }}
         />
       </div>

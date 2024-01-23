@@ -1,6 +1,8 @@
 import { memo } from 'react';
 import type { FC } from 'react';
 
+import { useNavigate } from 'react-router-dom';
+
 import resets from '../_resets.module.css';
 import { _NavItemBase_CurrentFalseColor } from './_NavItemBase_CurrentFalseColor/_NavItemBase_CurrentFalseColor.js';
 import { _NavItemButton_CurrentFalseSiz } from './_NavItemButton_CurrentFalseSiz/_NavItemButton_CurrentFalseSiz.js';
@@ -97,11 +99,14 @@ interface Props {
 }
 /* @figmaId 6222:19673 */
 export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
+  const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.headerNavigation}>
+      <div className={classes.headerNavigation} style={{width: "100%"}}>
         <div className={classes.container}>
-          <div className={classes.content}>
+          <div className={classes.content}  onClick={() => {
+              navigate('/giao-vien');
+            }}>
             <div className={classes.logo}>
               <div className={classes._9VAN}>9VAN</div>
             </div>
@@ -119,7 +124,7 @@ export const AGiaoChoLop: FC<Props> = memo(function AGiaoChoLop(props = {}) {
                             icon: <SearchLgIcon className={classes.icon} />,
                           }}
                         />
-                        <div className={classes.text22}>Tìm kiếm</div>
+                        <input style={{width: "100%", height: "100%", border: "none"}} className={classes.text22}/>
                       </div>
                     </div>
                   </div>

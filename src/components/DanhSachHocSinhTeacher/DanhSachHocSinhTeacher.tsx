@@ -42,6 +42,7 @@ import { TableHeaderCell_TextFalseCheck } from './TableHeaderCell_TextFalseCheck
 import { TableHeaderCell_TextTrueCheckb2 } from './TableHeaderCell_TextTrueCheckb2/TableHeaderCell_TextTrueCheckb2.js';
 import { TableHeaderCell_TextTrueCheckb } from './TableHeaderCell_TextTrueCheckb/TableHeaderCell_TextTrueCheckb.js';
 import { Users1 } from './Users1/Users1.js';
+import { useNavigate } from 'react-router-dom';
 import { Users1Icon } from './Users1Icon.js';
 
 interface Props {
@@ -102,13 +103,16 @@ interface Props {
 }
 /* @figmaId 6222:19601 */
 export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTeacher(props = {}) {
+  const navigate = useNavigate();
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
+    <div className={`${resets.clapyResets} ${classes.root}`} style={{height: "1000px"}}>
       <div className={classes.frame1116606394}>
         <_TabButtonBase_CurrentFalseSiz
           className={classes._TabButtonBase}
           text={{
-            text: <div className={classes.text}>Bài đã giao</div>,
+            text: <div  onClick={() => {
+              navigate('/da-giao');
+            }} className={classes.text}>Bài đã giao</div>,
           }}
         />
         <_TabButtonBase_CurrentTrueSize
@@ -118,9 +122,11 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
           }}
         />
       </div>
-      <div className={classes.headerNavigation}>
+      <div className={classes.headerNavigation} style={{width: "100%"}}>
         <div className={classes.container}>
-          <div className={classes.content}>
+          <div className={classes.content}  onClick={() => {
+              navigate('/giao-vien');
+            }}>
             <div className={classes.logo}>
               <div className={classes._9VAN}>9VAN</div>
             </div>
@@ -138,7 +144,7 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
                             icon: <SearchLgIcon className={classes.icon} />,
                           }}
                         />
-                        <div className={classes.text46}>Tìm kiếm</div>
+                        <input style={{width: "100%", height: "100%", border: "none"}} placeholder="Tìm kiếm" className={classes.text46}/>
                       </div>
                     </div>
                   </div>
@@ -188,7 +194,9 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text3}>Trang chủ</div>,
+                text: <div  onClick={() => {
+                  navigate('/giao-vien');
+                }} className={classes.text3}>Trang chủ</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -208,7 +216,9 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text4}>Lớp học</div>,
+                text: <div  onClick={() => {
+                  navigate('/lop-hoc');
+                }} className={classes.text4}>Lớp học</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -228,7 +238,9 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text5}>Bài tập</div>,
+                text: <div  onClick={() => {
+                  navigate('/bai-tap');
+                }} className={classes.text5}>Bài tập</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -248,7 +260,9 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text6}>Đề thi</div>,
+                text: <div  onClick={() => {
+                  navigate('/de-thi');
+                }} className={classes.text6}>Đề thi</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -268,7 +282,9 @@ export const DanhSachHocSinhTeacher: FC<Props> = memo(function DanhSachHocSinhTe
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text7}>Hồ sơ</div>,
+                text: <div  onClick={() => {
+                  navigate('/profile');
+                }} className={classes.text7}>Hồ sơ</div>,
               }}
             />
           </div>

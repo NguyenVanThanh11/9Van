@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import { _NavItemBase_CurrentFalseColor } from './_NavItemBase_CurrentFalseColor/_NavItemBase_CurrentFalseColor.js';
@@ -50,13 +51,16 @@ interface Props {
 }
 /* @figmaId 6223:23292 */
 export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
+  const navigate = useNavigate();
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.headerNavigation}>
+      <div className={classes.headerNavigation} style={{width: "100%"}}>
         <div className={classes.container}>
           <div className={classes.content}>
             <div className={classes.logo}>
-              <div className={classes._9VAN}>9VAN</div>
+              <div  onClick={() => {
+              navigate('/giao-vien');
+            }} className={classes._9VAN}>9VAN</div>
             </div>
           </div>
           <div className={classes.content2}>
@@ -72,7 +76,7 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
                             icon: <SearchLgIcon className={classes.icon} />,
                           }}
                         />
-                        <div className={classes.text10}>Tìm kiếm</div>
+                        <input style={{width: "100%", height: "100%", border: "none"}} className={classes.text10}/> 
                       </div>
                     </div>
                   </div>
@@ -122,7 +126,9 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text}>Trang chủ</div>,
+                text: <div  onClick={() => {
+                  navigate('/giao-vien');
+                }} className={classes.text}>Trang chủ</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -142,7 +148,9 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text2}>Lớp học</div>,
+                text: <div  onClick={() => {
+                  navigate('/lop-hoc');
+                }} className={classes.text2}>Lớp học</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -162,7 +170,9 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text3}>Bài tập</div>,
+                text: <div  onClick={() => {
+                  navigate('/bai-tap');
+                }} className={classes.text3}>Bài tập</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -182,7 +192,9 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text4}>Đề thi</div>,
+                text: <div  onClick={() => {
+                  navigate('/de-thi');
+                }} className={classes.text4}>Đề thi</div>,
               }}
             />
             <_NavItemBase_CurrentFalseColor
@@ -202,13 +214,15 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
                 chevronDown: true,
               }}
               text={{
-                text: <div className={classes.text5}>Hồ sơ</div>,
+                text: <div  onClick={() => {
+                  navigate('/profile');
+                }} className={classes.text5}>Hồ sơ</div>,
               }}
             />
           </div>
         </div>
       </div>
-      <div className={classes.header_content}>
+      <div className={classes.header_content} style={{width: "100%"}}>
         <_TabButtonBase_CurrentFalseSiz
           className={classes._TabButtonBase}
           text={{
@@ -218,7 +232,9 @@ export const BaiTap: FC<Props> = memo(function BaiTap(props = {}) {
         <_TabButtonBase_CurrentFalseSiz
           className={classes._TabButtonBase2}
           text={{
-            text: <div className={classes.text7}>Bài đã giao</div>,
+            text: <div  onClick={() => {
+              navigate('/da-giao');
+            }} className={classes.text7}>Bài đã giao</div>,
           }}
         />
         <_TabButtonBase_CurrentTrueSize
